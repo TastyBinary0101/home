@@ -30,6 +30,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Enhanced Animations Stylesheet -->
+    <link href="css/enhanced-animations.css" rel="stylesheet">
 </head>
 
 <body>
@@ -72,17 +75,19 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header">
+    <div class="container-fluid pt-5 bg-primary hero-header animate-fade-up">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">PROGRAMMING CLUB</h1>
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5 animate-fade-left animate-delay-1">
+                    <h1 class="display-4 text-white mb-4 typewriter">PROGRAMMING CLUB</h1>
                     <nav aria-label="breadcrumb">
                         
                     </nav>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/humrob-img.png" alt="" style="max-height: 500px;">
+                <div class="col-lg-6 align-self-end text-center text-lg-end animate-fade-right animate-delay-2">
+                    <div class="image-container">
+                        <img class="img-fluid hover-scale" src="img/humrob-img.png" alt="" style="max-height: 500px;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,15 +118,15 @@
 
     <!-- Case Start -->
 
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 scroll-animate">
         <div class="container py-5">
-            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="mx-auto text-center wow fadeIn animate-fade-up" data-wow-delay="0.1s" style="max-width: 500px;">
                                 <h1 class="mb-4">Explore Upcomming Events</h1>
             </div>
         
-        <div class="row g-4">
-            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                <div class="case-item position-relative overflow-hidden rounded mb-2">
+        <div class="row g-4 stagger-list">
+            <div class="col-lg-4 wow fadeIn animate-scale animate-delay-1" data-wow-delay="0.3s">
+                <div class="case-item position-relative overflow-hidden rounded mb-2 hover-lift">
                     <img class="img-fluid" src="img/rob9-img.png" alt="">
                     <a class="case-overlay text-decoration-none" href="join.html">
                         <style>
@@ -150,7 +155,7 @@
                           
                           <span class="ai-glow-text">AI Workshop</span>
                           <br>
-                          <span class="btn btn-primary">
+                          <span class="btn btn-primary hover-scale">
                             OPENING SOON <i class="fa fa-arrow-right ml-2"></i>
                           </span>
                           
@@ -161,8 +166,8 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                <div class="case-item position-relative overflow-hidden rounded mb-2">
+            <div class="col-lg-4 wow fadeIn animate-scale animate-delay-2" data-wow-delay="0.5s">
+                <div class="case-item position-relative overflow-hidden rounded mb-2 hover-lift">
                     <img class="img-fluid" src="img/iv10-img.PNG" alt="">
                     <a class="case-overlay text-decoration-none" href="join.html">
                        
@@ -196,7 +201,7 @@
                        <br>
                        
                        
-                       <span class="btn btn-primary">
+                       <span class="btn btn-primary hover-scale">
                         REGISTER <i class="fa fa-arrow-right ml-2"></i>
                       </span>
                       
@@ -217,15 +222,15 @@
         </div>
     
     <!-- Case End -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5 scroll-animate">
         <div class="container py-5">
-            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="mx-auto text-center wow fadeIn animate-fade-up" data-wow-delay="0.1s" style="max-width: 500px;">
                 
                 <h1 class="mb-4">Explore Upcoming Projects</h1>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+            <div class="row g-4 stagger-list">
+                <div class="col-lg-4 wow fadeIn animate-scale animate-delay-1" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2 hover-lift">
                         <img class="img-fluid" src="img/planets9-img.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="join.html">
                             <style>
@@ -255,7 +260,7 @@
                               <span class="ai-glow-text">Satellite Project</span>
                               
                               <br>
-                              <span class="btn btn-primary">
+                              <span class="btn btn-primary hover-scale">
                                 OPENING SOON  <i class="fa fa-arrow-right ml-2"></i>
                               </span>
                             
@@ -263,8 +268,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                <div class="col-lg-4 wow fadeIn animate-scale animate-delay-2" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2 hover-lift">
                         <img class="img-fluid" src="img/ais-img.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="join.html">
                             <style>
@@ -294,7 +299,7 @@
                               <span class="ai-glow-text">Humanoid Robot</span>
                               
                               <br>
-                              <span class="btn btn-primary">
+                              <span class="btn btn-primary hover-scale">
                                 REGISTER  <i class="fa fa-arrow-right ml-2"></i>
                               </span>
                               
@@ -302,8 +307,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                <div class="col-lg-4 wow fadeIn animate-scale animate-delay-3" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2 hover-lift">
                         <img class="img-fluid" src="img/aibot7-img.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="">
                             <style>
@@ -333,7 +338,7 @@
                               <span class="ai-glow-text">Ai Bot</span>
                               
                               <br>
-                              <span class="btn btn-primary">
+                              <span class="btn btn-primary hover-scale">
                                 OPENING SOON   <i class="fa fa-arrow-right ml-2"></i>
                               </span>
                             
@@ -422,6 +427,33 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+    <!-- Enhanced Animations Script -->
+    <script>
+        // Scroll animation observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        // Observe scroll animate elements
+        document.querySelectorAll('.scroll-animate').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Observe stagger list elements
+        document.querySelectorAll('.stagger-list').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 
 </html>

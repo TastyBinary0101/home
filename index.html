@@ -30,6 +30,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Enhanced Animations Stylesheet -->
+    <link href="css/enhanced-animations.css" rel="stylesheet">
 </head>
 
 <body>
@@ -83,20 +86,22 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5 animate-fade-up">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">2K24-25</div>
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">Welcome to the Programming Club</h1>
-                    <p class="text-white mb-4 animated slideInRight">The official tech hub of K. Ramakrishnan College of Technology.
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5 animate-fade-left animate-delay-1">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animate-pulse">2K24-25</div>
+                    <h1 class="display-4 text-white mb-4 typewriter">Welcome to the Programming Club</h1>
+                    <p class="text-white mb-4 animate-fade-up animate-delay-3">The official tech hub of K. Ramakrishnan College of Technology.
                          We are a passionate community of coders, developers, thinkers, and innovators working together to turn ideas into reality through the power of programming.
 
                     </p>
 
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/hero-img.png" alt="">
+                <div class="col-lg-6 align-self-end text-center text-lg-end animate-fade-right animate-delay-2">
+                    <div class="image-container">
+                        <img class="img-fluid hover-scale" src="img/hero-img.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,15 +131,15 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 scroll-animate">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid" src="img/about-img.jpg">
+                <div class="col-lg-6 wow fadeIn animate-fade-left" data-wow-delay="0.1s">
+                    <div class="about-img image-container hover-lift">
+                        <img class="img-fluid fade-in-image" src="img/about-img.jpg">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeIn animate-fade-right animate-delay-2" data-wow-delay="0.5s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
                     <h1 class="mb-4">We Build Future-Ready Minds Through Projects, Hackathons, AI & Entrepreneurship</h1>
                     <p class="mb-4">At Team Synerix, we believe in learning by building. From real-time web and app development to AI-based innovations, we bring ideas to life through collaborative student-led projects.</p>
@@ -150,11 +155,11 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mt-4">
-                        <a class="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
-                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-primary rounded-pill px-4 me-3 hover-lift" href="">Read More</a>
+                        <a class="btn btn-outline-primary btn-square me-3 hover-scale" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3 hover-scale" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3 hover-scale" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-primary btn-square hover-scale" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -164,22 +169,22 @@
 
 
     <!-- Service Start -->
-    <div class="container-fluid bg-light mt-5 py-5">
+    <div class="container-fluid bg-light mt-5 py-5 scroll-animate">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-5 wow fadeIn animate-fade-left" data-wow-delay="0.1s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
                     <h1 class="mb-4">Join in our Innovation Crew</h1>
                     <p class="mb-4">We’re building more than ideas — we’re building the future.
                         Explore our five core projects that are redefining innovation on campus:</p>
-                    <a class="btn btn-primary rounded-pill px-4" href="project.html">View in Project page</a>
+                    <a class="btn btn-primary rounded-pill px-4 hover-lift glow-effect" href="project.html">View in Project page</a>
                 </div>
                 <div class="col-lg-7">
-                    <div class="row g-4">
+                    <div class="row g-4 stagger-list">
                         <div class="col-md-6">
                             <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-1" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded hover-lift">
                                         <div class="service-icon btn-square">
                                             <i class="fa fa-satellite fa-2x"></i>
                                         </div>
@@ -188,8 +193,8 @@
                             
                                     </div>
                                 </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-3" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded hover-lift">
                                         <div class="service-icon btn-square">
                                             <i class="fa fa-mobile fa-2x"></i>
                                         </div>
@@ -202,8 +207,8 @@
                         </div>
                         <div class="col-md-6 pt-md-4">
                             <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-2" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded hover-lift">
                                         <div class="service-icon btn-square">
                                             <i class="fa fa-robot fa-2x"></i>
                                         </div>
@@ -212,8 +217,8 @@
                                         
                                     </div>
                                 </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
-                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-4" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded hover-lift">
                                         <div class="service-icon btn-square">
                                             <i class="fa fa-brain fa-2x"></i>
                                         </div>
@@ -233,10 +238,10 @@
 
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-primary feature pt-5">
+    <div class="container-fluid bg-primary feature pt-5 scroll-animate">
         <div class="container pt-5">
             <div class="row g-5">
-                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn animate-fade-left" data-wow-delay="0.3s">
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div>
                     <h1 class="text-white mb-4">We Are PROGRAMMERZ Innovating with Passion & Purpose</h1>
                     <p class="text-light mb-4">PROGRAMMING CLUB isn’t just a club — it’s a hub of creators, coders, and dreamers. With a dynamic team of students and volunteers, we’re tackling real-world problems through tech, design, AI, and innovation.</p>
@@ -260,7 +265,7 @@
                     </div>
                     <div class="row g-4 pt-3">
                         <div class="col-sm-6">
-                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                            <div class="d-flex rounded p-3 hover-lift counter-item animate-delay-1" style="background: rgba(256, 256, 256, 0.1);">
                                 <i class="fa fa-users fa-3x text-white"></i>
                                 <div class="ms-3">
                                     <h2 class="text-white mb-0" data-toggle="counter-up">263</h2>
@@ -269,7 +274,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                            <div class="d-flex rounded p-3 hover-lift counter-item animate-delay-2" style="background: rgba(256, 256, 256, 0.1);">
                                 <i class="fa fa-check fa-3x text-white"></i>
                                 <div class="ms-3">
                                     <h2 class="text-white mb-0" data-toggle="counter-up">7</h2>
@@ -279,8 +284,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/feature.png" alt="">
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn animate-fade-right animate-delay-2" data-wow-delay="0.5s">
+                    <div class="image-container">
+                        <img class="img-fluid hover-scale" src="img/feature.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -289,34 +296,34 @@
 
 
     <!-- Case Start -->
-    <div class="container-fluid bg-light mt-5 py-5">
+    <div class="container-fluid bg-light mt-5 py-5 scroll-animate">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-5 wow fadeIn animate-fade-left" data-wow-delay="0.1s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">🔙 Past Events</div>
                     <h1 class="mb-4">EVENTS</h1>
                     <p class="mb-4">From coding challenges to creative design sessions, our past events have empowered students to collaborate, innovate, and grow. Each event sparked curiosity and strengthened our club community.</p>
-                    <a class="btn btn-primary rounded-pill px-4" href="project.html">All Events</a>
+                    <a class="btn btn-primary rounded-pill px-4 hover-lift glow-effect" href="project.html">All Events</a>
                 </div>
                 <div class="col-lg-7">
-                    <div class="row g-4">
+                    <div class="row g-4 stagger-list">
                       <div class="col-md-6">
-                        <div class="card border-0 shadow-sm image-card fade-in">
+                        <div class="card border-0 shadow-sm image-card fade-in hover-lift animate-scale animate-delay-1">
                           <img src="https://github.com/krct-pc/home/blob/main/images/IMG_2291%20(2)%20(1).jpg?raw=true" class="card-img-top rounded" alt="Event 1">
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <div class="card border-0 shadow-sm image-card fade-in">
+                        <div class="card border-0 shadow-sm image-card fade-in hover-lift animate-scale animate-delay-2">
                           <img src="img/event/e2.jpg" class="card-img-top rounded" alt="Event 2">
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <div class="card border-0 shadow-sm image-card fade-in">
+                        <div class="card border-0 shadow-sm image-card fade-in hover-lift animate-scale animate-delay-3">
                           <img src="img/event/e3.jpg" class="card-img-top rounded" alt="Event 3">
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <div class="card border-0 shadow-sm image-card fade-in">
+                        <div class="card border-0 shadow-sm image-card fade-in hover-lift animate-scale animate-delay-4">
                           <img src="img/event/e4.jpg" class="card-img-top rounded" alt="Event 4">
                         </div>
                       </div>
@@ -354,51 +361,51 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5 scroll-animate">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-5 wow fadeIn animate-fade-left" data-wow-delay="0.1s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Team</div>
                     <h1 class="mb-4">Meet the Minds Behind Our Club</h1>
                     <p class="mb-4">From mentoring to innovation, our team is a blend of guidance and youthful energy. Get to know the people driving the Programming Club forward!</p>
-                    <a class="btn btn-primary rounded-pill px-4" href="">See Full Team</a>
+                    <a class="btn btn-primary rounded-pill px-4 hover-lift glow-effect" href="">See Full Team</a>
                 </div>
                 <div class="col-lg-7">
-                    <div class="row g-4">
+                    <div class="row g-4 stagger-list">
                         <div class="col-md-6">
                             <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-1" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0 hover-lift">
                                         <img class="img-fluid rounded-circle p-4" src="images/coordinatorcrop.jpg" alt="">
                                         <h5 class="mb-0">B MAHALAKSHMI</h5>
                                         <small>Assistant Professor</small>
                                         <p>CLUB COORDINATOR</p>
                                         <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-3" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0 hover-lift">
                                         <img class="img-fluid rounded-circle p-4" src="images/syed.jpg" alt="">
                                         <h5 class="mb-0">SYED SHAMMEER S A</h5>
                                         <small>AIDS</small>
                                         <p>VICE PRESIDENT</p>
                                         <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
@@ -407,38 +414,38 @@
                         </div>
                         <div class="col-md-6 pt-md-4">
                             <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-2" data-wow-delay="0.3s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0 hover-lift">
                                         <img class="img-fluid rounded-circle p-4" src="images/rohit.jpg" alt="">
                                         <h5 class="mb-0">Rohit S K</h5>
                                         <small>CSE (AMIL)</small>
                                         <p>PRESIDENT</p>
                                         <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                <div class="col-12 wow fadeIn animate-scale animate-delay-4" data-wow-delay="0.7s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0 hover-lift">
                                         <img class="img-fluid rounded-circle p-4" src="images/madhan.jpg" alt="">
                                         <h5 class="mb-0">RAMA MADHAN</h5>
                                         <small>ECE</small>
                                         <p>TREASURER</p>
                                         <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1 hover-scale" href=""><i
                                                     class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
@@ -608,6 +615,87 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+    <!-- Enhanced Animations Script -->
+    <script>
+        // Scroll animation observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        // Observe scroll animate elements
+        document.querySelectorAll('.scroll-animate').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Observe stagger list elements
+        document.querySelectorAll('.stagger-list').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Image fade-in on load
+        document.querySelectorAll('.fade-in-image').forEach(img => {
+            if (img.complete) {
+                img.classList.add('loaded');
+            } else {
+                img.addEventListener('load', () => {
+                    img.classList.add('loaded');
+                });
+            }
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.parallax-element');
+            
+            parallaxElements.forEach(element => {
+                const speed = element.dataset.speed || 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+
+        // Counter animation
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 100;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current);
+            }, 20);
+        }
+
+        // Initialize counter animations when visible
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target.querySelector('[data-toggle="counter-up"]');
+                    if (counter && !counter.classList.contains('animated')) {
+                        counter.classList.add('animated');
+                        const target = parseInt(counter.textContent);
+                        animateCounter(counter, target);
+                    }
+                }
+            });
+        });
+
+        document.querySelectorAll('.counter-item').forEach(el => {
+            counterObserver.observe(el);
+        });
+    </script>
 </body>
 
 </html>
